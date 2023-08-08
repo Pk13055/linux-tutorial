@@ -31,7 +31,6 @@ Make sure you enumerate your steps in the process and what commands you used.
 
 #### Steps
 
-- <!-- TODO: add steps here -->
 
 1 - We need to open the master.json file in our terminal ( cat master.json)
 
