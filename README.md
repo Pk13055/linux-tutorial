@@ -34,10 +34,15 @@ Make sure you enumerate your steps in the process and what commands you used.
 - <!-- TODO: add steps here -->
 
 1 - We need to open the master.json file in our terminal ( cat master.json)
+
 2- We need to use grep to extract the only information we need ( symbol , open , high , low , close , timestamp ) - ( grep -E 'symbol|open|close|high|low|timestamp' master.json > output.txt )
+
 3- We can run the output and check for multiple words using the grep combined with the pipe command (|)
+
 4 -We need to store the output in another file using the > symbol (output.txt) 
+
 5 -We can now convert the file to a csv file , by copying the file output.txt to output.csv in the same folder using the cp command
+
 6- We can verify this by opening the csv file using (cat)
 
 Commands used - (ls , cd , cat , grep , > )
